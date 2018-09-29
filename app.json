@@ -41,17 +41,46 @@
     ]
   },
   "drivers": [
-        {
+    {
+      "id": "DSC-26103ZWEU",
+      "class": "light",
+      "capabilities": [
+        "onoff"
+      ],
+      "name": {
+        "en": "Micro Switch Gen2"
+      },
+      "images": {
+        "large": "/drivers/DSC-26103ZWEU/assets/images/large.png",
+        "small": "/drivers/DSC-26103ZWEU/assets/images/small.png"
+      },
+      "zwave": {
+        "manufacturerId": [
+          134
+        ],
+        "productTypeId": [
+          3
+        ],
+        "productId": [
+          26
+        ],
+        "learnmode": {
+          "instruction": {
+            "en": "Short press the action button on the Switch.",
+            "nl": "Druk kort op de actie knop op de Switch."
+          }
+        }
+      }
+    },
+    {
       "id": "DSC-27103ZWEU",
       "class": "light",
       "capabilities": [
         "onoff",
-        "dim",
-        "measure_power",
-        "meter_power"
+        "dim"
       ],
       "name": {
-        "en": "Micro Smart Dimmer Gen2"
+        "en": "Micro Dimmer Gen2"
       },
       "images": {
         "large": "/drivers/DSC-27103ZWEU/assets/images/large.png",
@@ -69,10 +98,77 @@
         ],
         "learnmode": {
           "instruction": {
-            "en": "Short press the action button on the back of the Dimmer.",
-            "nl": "Druk kort op de actie knop op de achterkant van de Dimmer."
+            "en": "Short press the action button on the Dimmer.",
+            "nl": "Druk kort op de actie knop op de Dimmer."
           }
-        },
+        }
+      }
+    },
+    {
+      "id": "DSC18103-ZWEU",
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "measure_power",
+        "meter_power"
+      ],
+      "name": {
+        "en": "Micro Smart Switch Gen2"
+      },
+      "images": {
+        "large": "/drivers/DSC18103-ZWEU/assets/images/large.png",
+        "small": "/drivers/DSC18103-ZWEU/assets/images/small.png"
+      },
+      "zwave": {
+        "manufacturerId": [
+          134
+        ],
+        "productTypeId": [
+          3
+        ],
+        "productId": [
+          18
+        ],
+        "learnmode": {
+          "instruction": {
+            "en": "Short press the action button on the Switch.",
+            "nl": "Druk kort op de actie knop op de Switch."
+          }
+        }
+      }
+    },
+    {
+      "id": "DSC19103-ZWEU",
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "dim",
+        "measure_power",
+        "meter_power"
+      ],
+      "name": {
+        "en": "Micro Smart Dimmer Gen2"
+      },
+      "images": {
+        "large": "/drivers/DSC19103-ZWEU/assets/images/large.png",
+        "small": "/drivers/DSC19103-ZWEU/assets/images/small.png"
+      },
+      "zwave": {
+        "manufacturerId": [
+          134
+        ],
+        "productTypeId": [
+          3
+        ],
+        "productId": [
+          19
+        ],
+        "learnmode": {
+          "instruction": {
+            "en": "Short press the action button on the Dimmer.",
+            "nl": "Druk kort op de actie knop op de Dimmer."
+          }
+        }
       }
     },
     {
@@ -1647,7 +1743,7 @@
       },
       "settings": [
         {
-          "id": 37,
+          "id": "37",
           "type": "dropdown",
           "label": {
             "en": "Siren sound and volume",
