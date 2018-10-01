@@ -11,7 +11,8 @@
       2
     ],
     "productId": [
-      28
+      28,
+      95
     ],
     "learnmode": {
       "instruction": {
@@ -70,6 +71,18 @@
           "id": "1",
           "label": {
             "en": "Report positive/negative power, report the algebraic sum of energy."
+          }
+        },
+        {
+          "id": "2",
+          "label": {
+            "en": "Report positive/negative power, only report energy positive part (consuming electricity)."
+          }
+        },
+        {
+          "id": "3",
+          "label": {
+            "en": "Report positive/negative power, only report energy negative part (generating electricity)."
           }
         }
       ]
@@ -152,7 +165,7 @@
     },
     {
       "id": 8,
-      "value": 80,
+      "value": 10,
       "label": {
         "en": "Percentage change in W to induce a automatic report - Whole HEM"
       },
@@ -168,7 +181,7 @@
     },
     {
       "id": 9,
-      "value": 80,
+      "value": 10,
       "label": {
         "en": "Percentage change in W to induce a automatic report - Clamp 1"
       },
@@ -184,7 +197,7 @@
     },
     {
       "id": 10,
-      "value": 80,
+      "value": 10,
       "type": "number",
       "label": {
         "en": "Percentage change in W to induce a automatic report - Clamp 2"
@@ -200,7 +213,7 @@
     },
     {
       "id": 11,
-      "value": 80,
+      "value": 10,
       "label": {
         "en": "Percentage change in W to induce a automatic report - Clamp 3"
       },
@@ -253,7 +266,7 @@
 
     {
       "id": 111,
-      "value": 300,
+      "value": 5,
       "label": {
         "en": "Set the interval time of sending report."
       },
@@ -265,7 +278,7 @@
     },
     {
       "id": 112,
-      "value": 300,
+      "value": 120,
       "label": {
         "en": "Set the interval time of sending report."
       },
@@ -277,7 +290,7 @@
     },
     {
       "id": 113,
-      "value": 300,
+      "value": 120,
       "label": {
         "en": "Set the interval time of sending report."
       },
